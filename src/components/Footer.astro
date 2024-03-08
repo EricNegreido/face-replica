@@ -1,0 +1,23 @@
+---
+import {Languages} from '../mock/languages.json'
+import {shortCuts} from '../mock/shortCuts.json'
+---
+<footer>
+  <section>
+    {
+      Languages.map(item => (
+          <li><a href="">{item.Language}</a></li>
+      ))
+  }
+  <button> + </button>
+  </section>
+  <section>
+    {
+      shortCuts.map(item => (
+          <li><a href="">{item.shortcut}</a></li>
+      ))
+  }
+  </section>
+  <p> Meta &copy 2024</p>
+  
+</footer>
