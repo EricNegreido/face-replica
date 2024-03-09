@@ -1,57 +1,111 @@
 // //variables
 $color-text-main:#066adc;
+$color-background: #efeff8;
 .index{
-    font-family:Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    background: #efeff8;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 500px;
-    width: 100%;
-    justify-content: space-around;
-    padding: 0 40px;
-    .index-welcome{
-        h1{
-            color: $color-text-main;
-            font-size: 3.5rem;
-        }
-        p{
-            width: 80%;
-            font-size: 25px;
-        }
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background: $color-background;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  padding: 0 20px;
+  .index-welcome{
+    width: 30%;
+    h1{
+      color: $color-text-main;
+      font-size: 3.5rem;
+      margin-bottom:10px ;
     }
-    .index-form{
-        background-color: #fff;
-        height: 55%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 15px;
-        text-align: center;
-        padding: 0 15px;
-        border-radius: 5px;
-        box-shadow:2px 2px 4px #ccc9, -2px -2px 4px #ccc9;
-        input{
-            height: 40px;
-            border-radius: 5px;
-            border: solid 1px #ddd;
-            padding-left: 15px;
-            font-size: 15px;
-        }
-        input::placeholder{
-            color: #999;
+    p{
+      max-width:500px;
+      font-size: 27px;
+    }
+  }
+  .index-section-form{
+    width: 400px;
 
+    .index-form{
+      height: 300px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      text-align: center;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow:2px 2px 4px #ccc9, -2px -2px 4px #ccc9;
+      input{
+        height: 40px;
+        border-radius: 5px;
+        border: solid 1px #ddd;
+        padding-left: 15px;
+        font-size: 15px;
+      }
+      input::placeholder{
+        color: #999;
+          
+      }
+      .button{
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        font-weight: 600;
+
+      }
+      .button-login{
+        background-color: $color-text-main;
+        color: #fff;
+        font-size: 1.3rem;
+        width: 100%;
+      }
+      .button-login:hover{
+        background-color: #237add;
+        cursor: pointer;
+        transition: all .3s;
+
+      }
+      .button-register{
+        background-color: #4ac32b;
+        color: #fff;
+        font-size: 1rem;
+        margin: 5px auto;
+        width: 200px;
+      }
+      .button-register:hover{
+        background-color: #43ae29;
+        cursor: pointer;
+        transition: all .3s;
+      }
+      .forget-password{
+        border-bottom: solid 1px #ddd;
+        height: 40px;
+        a {
+          color: $color-text-main;
+          text-decoration: none;
+          font-size: .9rem;
+          padding: 10px;
         }
-        button{
-            height: 40px;
-            background-color: $color-text-main;
-            border: none;
-            border-radius: 5px;
-            color: #fff;
-            font-weight: 600;
-            font-size: 1.3rem;
-            min-width: 350px;
+        a:hover{
+          text-decoration: underline;
         }
+      }
     }
+    .form-footer{
+      font-size: .85rem;
+      width: 100%;
+      margin-top: 25px;
+      text-align: center;
+      a {
+        color: #000;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    } 
+  }
 }

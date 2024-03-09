@@ -5,50 +5,102 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 500px;
-  width: 100%;
-  justify-content: space-around;
-  padding: 0 40px;
+  justify-content: center;
+  height: 700px;
+  padding: 0 20px;
+}
+.index .index-welcome {
+  width: 30%;
 }
 .index .index-welcome h1 {
   color: #066adc;
   font-size: 3.5rem;
+  margin-bottom: 10px;
 }
 .index .index-welcome p {
-  width: 80%;
-  font-size: 25px;
+  max-width: 500px;
+  font-size: 27px;
 }
-.index .index-form {
+.index .index-section-form {
+  width: 400px;
+}
+.index .index-section-form .index-form {
+  height: 300px;
   background-color: #fff;
-  height: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 15px;
   text-align: center;
-  padding: 0 15px;
-  border-radius: 5px;
+  padding: 15px;
+  border-radius: 10px;
   box-shadow: 2px 2px 4px rgba(204, 204, 204, 0.6), -2px -2px 4px rgba(204, 204, 204, 0.6);
 }
-.index .index-form input {
+.index .index-section-form .index-form input {
   height: 40px;
   border-radius: 5px;
   border: solid 1px #ddd;
   padding-left: 15px;
   font-size: 15px;
 }
-.index .index-form input::placeholder {
+.index .index-section-form .index-form input::placeholder {
   color: #999;
 }
-.index .index-form button {
-  height: 40px;
-  background-color: #066adc;
+.index .index-section-form .index-form .button {
+  height: 50px;
   border: none;
   border-radius: 5px;
-  color: #fff;
   font-weight: 600;
+}
+.index .index-section-form .index-form .button-login {
+  background-color: #066adc;
+  color: #fff;
   font-size: 1.3rem;
-  min-width: 350px;
+  width: 100%;
+}
+.index .index-section-form .index-form .button-login:hover {
+  background-color: #237add;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.index .index-section-form .index-form .button-register {
+  background-color: #4ac32b;
+  color: #fff;
+  font-size: 1rem;
+  margin: 5px auto;
+  width: 200px;
+}
+.index .index-section-form .index-form .button-register:hover {
+  background-color: #43ae29;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.index .index-section-form .index-form .forget-password {
+  border-bottom: solid 1px #ddd;
+  height: 40px;
+}
+.index .index-section-form .index-form .forget-password a {
+  color: #066adc;
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding: 10px;
+}
+.index .index-section-form .index-form .forget-password a:hover {
+  text-decoration: underline;
+}
+.index .index-section-form .form-footer {
+  font-size: 0.85rem;
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+}
+.index .index-section-form .form-footer a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+}
+.index .index-section-form .form-footer a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=headear.css.map */
