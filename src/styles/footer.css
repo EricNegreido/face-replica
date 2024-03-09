@@ -1,0 +1,47 @@
+.footer {
+  text-align: justify;
+  padding: 20px;
+  font-size: 0.9rem;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.footer .footer-languages {
+  height: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.footer .footer-languages li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.footer .footer-languages a {
+  text-decoration: none;
+  color: #888;
+}
+.footer .footer-languages .button {
+  border: 1px solid #ddd;
+  width: 25px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 20px;
+}
+.footer .footer-shortcuts {
+  height: 90px;
+  line-height: 20px;
+}
+.footer .footer-shortcuts li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.footer .footer-shortcuts a {
+  width: 100%;
+  color: #888;
+  text-decoration: none;
+}
+.footer .copy {
+  color: #777;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=footer.css.map */

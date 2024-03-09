@@ -4,10 +4,7 @@
             "shortcut": "Registrarte"
         },
         {
-            "shortcut": "Iniciar"
-        },
-        {
-            "shortcut": "sesión"
+            "shortcut": "Iniciar sesión"
         },
         {
             "shortcut": "Messenger"
@@ -92,9 +89,6 @@
         },
         {
             "shortcut": "Subir contactos y no usuarios"
-        },
-        {
-            "shortcut": "Configuración"
         }
     ]
 }

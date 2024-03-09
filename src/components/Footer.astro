@@ -1,23 +1,28 @@
 ---
 import {Languages} from '../mock/languages.json'
 import {shortCuts} from '../mock/shortCuts.json'
+import '../styles/footer.scss'
 ---
-<footer>
-  <section>
-    {
-      Languages.map(item => (
+<footer class="footer">
+  <section class="footer-languages">
+    <ul>
+      {
+        Languages.map(item => (
           <li><a href="">{item.Language}</a></li>
-      ))
-  }
-  <button> + </button>
+        ))
+      }
+      <li class="button"> + </li>
+    </ul>
   </section>
-  <section>
-    {
-      shortCuts.map(item => (
+  <section class="footer-shortcuts">
+    <ul>
+      {
+        shortCuts.map(item => (
           <li><a href="">{item.shortcut}</a></li>
-      ))
-  }
+        ))
+      }
+    </ul>
   </section>
-  <p> Meta &copy 2024</p>
+  <p class="copy"> Meta &copy 2024</p>
   
 </footer>

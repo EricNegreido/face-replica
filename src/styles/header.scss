@@ -13,6 +13,8 @@ $color-background: #efeff8;
   padding: 0 20px;
   .index-welcome{
     width: 30%;
+    min-width: 450px;
+    margin: 0 20px;
     h1{
       color: $color-text-main;
       font-size: 3.5rem;
