@@ -1,0 +1,15 @@
+.nav ul {
+  display: flex;
+  justify-content: center;
+}
+.nav ul li {
+  box-sizing: border-box;
+  width: 69px;
+  height: 46px;
+  text-align: center;
+  list-style: none;
+  padding: 12px 16px;
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=nav.css.map */

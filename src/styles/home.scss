@@ -1,0 +1,59 @@
+.head{
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  padding: 5px;
+  h1{
+    color: #3463ff;
+    font-size: 2rem;
+  }
+  .setting{
+      display: flex;
+      gap: 8px;
+      div{
+        border-radius: 50px;
+        background-color: #999;
+        overflow: hidden;
+        width: 30px;
+        height: 30px;
+      }
+  }
+}
+.update-state{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  padding: 10px;
+
+  .img-state{
+    background-color: #3463ff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    position: relative;
+    .state{
+      background-color: #0a0;
+      width: 12px;
+      height: 12px;
+      border-radius: 50px;
+      border: 1px solid #fff;
+      position: absolute;
+      right: -3px;
+      bottom: 2px;
+    }
+  }
+  input{
+    background-color: #eee;
+    border:none;
+    border-radius: 15px;
+    height: 40px;
+    width: 270px;
+    padding-left: 20px;
+  }
+  input::placeholder{
+    color: #000;
+    font-size: 1rem;
+  }
+
+}
